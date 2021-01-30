@@ -1,3 +1,0 @@
-C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Access modifiers\obj\Debug\netcoreapp2.1\Access modifiers.csproj.CoreCompileInputs.cache
-C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Access modifiers\obj\Debug\netcoreapp2.1\Access modifiers.AssemblyInfoInputs.cache
-C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Access modifiers\obj\Debug\netcoreapp2.1\Access modifiers.AssemblyInfo.cs

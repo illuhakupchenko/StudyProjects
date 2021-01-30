@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\bin\Debug\netcoreapp2.1\BonAppetit.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\bin\Debug\netcoreapp2.1\BonAppetit.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\bin\Debug\netcoreapp2.1\BonAppetit.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\bin\Debug\netcoreapp2.1\BonAppetit.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\bin\Debug\netcoreapp2.1\BonAppetit.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\obj\Debug\netcoreapp2.1\BonAppetit.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\obj\Debug\netcoreapp2.1\BonAppetit.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\obj\Debug\netcoreapp2.1\BonAppetit.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\obj\Debug\netcoreapp2.1\BonAppetit.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\obj\Debug\netcoreapp2.1\BonAppetit.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BonAppetit\obj\Debug\netcoreapp2.1\BonAppetit.pdb

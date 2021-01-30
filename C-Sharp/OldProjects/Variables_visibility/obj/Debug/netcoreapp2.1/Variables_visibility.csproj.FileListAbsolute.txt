@@ -1,0 +1,10 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\bin\Debug\netcoreapp2.1\Variables_visibility.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\bin\Debug\netcoreapp2.1\Variables_visibility.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\bin\Debug\netcoreapp2.1\Variables_visibility.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\bin\Debug\netcoreapp2.1\Variables_visibility.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\bin\Debug\netcoreapp2.1\Variables_visibility.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\obj\Debug\netcoreapp2.1\Variables_visibility.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\obj\Debug\netcoreapp2.1\Variables_visibility.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\obj\Debug\netcoreapp2.1\Variables_visibility.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\obj\Debug\netcoreapp2.1\Variables_visibility.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Variables_visibility\obj\Debug\netcoreapp2.1\Variables_visibility.pdb

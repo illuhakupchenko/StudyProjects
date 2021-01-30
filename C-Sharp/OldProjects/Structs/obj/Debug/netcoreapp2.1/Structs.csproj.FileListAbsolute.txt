@@ -1,0 +1,10 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\bin\Debug\netcoreapp2.1\Structs.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\bin\Debug\netcoreapp2.1\Structs.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\bin\Debug\netcoreapp2.1\Structs.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\bin\Debug\netcoreapp2.1\Structs.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\bin\Debug\netcoreapp2.1\Structs.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\obj\Debug\netcoreapp2.1\Structs.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\obj\Debug\netcoreapp2.1\Structs.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\obj\Debug\netcoreapp2.1\Structs.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\obj\Debug\netcoreapp2.1\Structs.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Structs\obj\Debug\netcoreapp2.1\Structs.pdb

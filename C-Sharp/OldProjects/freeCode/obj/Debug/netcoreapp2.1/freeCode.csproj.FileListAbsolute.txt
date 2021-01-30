@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\bin\Debug\netcoreapp2.1\freeCode.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\bin\Debug\netcoreapp2.1\freeCode.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\bin\Debug\netcoreapp2.1\freeCode.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\bin\Debug\netcoreapp2.1\freeCode.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\bin\Debug\netcoreapp2.1\freeCode.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\obj\Debug\netcoreapp2.1\freeCode.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\obj\Debug\netcoreapp2.1\freeCode.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\obj\Debug\netcoreapp2.1\freeCode.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\obj\Debug\netcoreapp2.1\freeCode.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\obj\Debug\netcoreapp2.1\freeCode.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\freeCode\obj\Debug\netcoreapp2.1\freeCode.pdb

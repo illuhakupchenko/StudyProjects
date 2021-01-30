@@ -1,0 +1,1168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="zebra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\zebra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pink.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="corn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\corn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yellow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\yellow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mannright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mannright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horse1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\horse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grandfather1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\grandfather.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\4a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ff.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ee.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\gg.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\man.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avocado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\avocado.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ii.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\bb.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fox.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tongue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tongue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rainy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rainy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\15a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lemon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lemon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\snowy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\white.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apples" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\apples.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pp.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\21a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\oo.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leopard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\leopard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\12.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tongue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tongue.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pineapple.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lip.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tiger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tiger.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grandmother1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\grandmother.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grandmother" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\grandmother.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ll.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\arm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\26.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pineapple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pineapple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\gray.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="feet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\feet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\16a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beetroot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\beetroot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_25a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\25a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\orange.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="startlearning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\startlearning.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\eye.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_20a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\20a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\purple.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_22a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\22a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\knee.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plum.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_6p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\14.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\nose.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\brown.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zebra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\zebra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="frog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frog.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\brown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="foot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\foot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mann" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mann.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fish.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hamster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hamster.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\25.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cloudy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cloudy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\21.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="leopard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\leopard.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="giraffes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\giraffes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elephant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\elephant.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="an_octopus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an octopus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flechas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\flechas.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tooth.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bear1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\bear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\foxes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="son" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\son.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="elephant1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\elephant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\blue.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hair.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sunny1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\sunny.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lizard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lizard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pink1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\8a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shark1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="daughter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\daughter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\5a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\xx.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\books.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\20.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\vv.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\panda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ww" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ww.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cat.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hippopotamus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hippopotamus.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\arm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_11a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\11a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fish2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tt.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grammar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\grammar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\soundoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabbit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rabbit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\oo.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cold.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\finger.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="foot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\foot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\eye.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nose1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\nose.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pear.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tiger1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tiger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="avocado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\avocado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ear.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hh.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\warm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mandarin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mandarin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tomato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\potato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cc.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\10a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\restart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\aa.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="daughter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\daughter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_elephant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an elephant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\panda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pushka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pushka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\26a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_ear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an ear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uncle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uncle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cabbage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cabbage.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dogs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\dogs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamster1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hamster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\peach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grandfather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\grandfather.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_10p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\23.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\15.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cloudy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cloudy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hippopotamus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hippopotamus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\19a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\head.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mother1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mother.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pea.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plum1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a cat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\turtle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crocodile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\crocodile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\horse.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_milk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a milk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\13.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aunt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\aunt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chameleon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\chameleon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_5p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mouth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\3a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potato1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\potato.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kangaroo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\kangaroo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainsong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mainsong.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_11p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kangaroo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\kangaroo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\white.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\red.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_9a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\9a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_6a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\6a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\banana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="an_apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lizard.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="corn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\corn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\carrot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\14a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broccoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\broccoli.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="camel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\camel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monkey1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\monkey.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\2a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clouds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\clouds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_16p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pear1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fish1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plural" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plural.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pea1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\kk.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\aunt.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="black1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wolves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\wolves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lip1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sunny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\sunny.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="giraffe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\giraffe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_car" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a car.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\leg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\23a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a mouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uncle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uncle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="turtle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\turtle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apricot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\apricot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\zz.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tooth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tooth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finger1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\finger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\qq.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radish1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\radish.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\exit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exitmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Exitmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\warm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giraffe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\giraffe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\black.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="parrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\parrot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hare.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\radish.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="onion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\onion.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\22.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="peach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\peach.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\11.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_7p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parrot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\parrot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cabbage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cabbage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabbit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rabbit.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qq1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\qq.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wolf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\wolf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\knee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\snowy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="orange1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\orange.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gray1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\gray.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\dd.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hand.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\apple.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cucumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cucumber.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mouth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mouth.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="foggy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\foggy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_7a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\7a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="son1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\son.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mm.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\green.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_13a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\13a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\yy.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\bear.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carrot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\carrot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\wrong.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mother" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mother.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\a book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ear1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\dog.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alphabetsong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\alphabetsong.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="father1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\father.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\onion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\apple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="english" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\english.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hare1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ss.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hair1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\hair.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\default.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shelves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shelves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cold.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\17a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\soundon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PairedPictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\PairedPictures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apricot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\apricot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_12a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\12a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_umbrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an umbrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broccoli1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\broccoli.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="babies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\babies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\18a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mandarin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\mandarin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\19.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rainy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rainy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="father" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\father.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_22p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\head.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rules" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rules.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\24a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\camel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="monkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\monkey.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tomato1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tomato.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lemon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rulesplural" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rulesplural.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="children" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\children.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cucumber1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\cucumber.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\yellow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\24.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crocodile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\crocodile.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\17.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_9p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\18.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="leg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\leg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\nn.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\wolf.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_25p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chameleon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\chameleon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\lion.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beetroot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\beetroot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_20p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\banana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foggy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\foggy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\16.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="turtles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\turtles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\red.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rr.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_ice_cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\an ice-cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\jj.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4380" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\4380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uu.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pushka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pushka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

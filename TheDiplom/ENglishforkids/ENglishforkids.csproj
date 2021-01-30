@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69A97D27-52A5-4514-A108-5EE3BBA8DB4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ENglishforkids</RootNamespace>
+    <AssemblyName>ENglishforkids</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alphabet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alphabet.Designer.cs">
+      <DependentUpon>Alphabet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishWords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnglishWords.Designer.cs">
+      <DependentUpon>EnglishWords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Articles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articles.Designer.cs">
+      <DependentUpon>Articles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Labyrinth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labyrinth.Designer.cs">
+      <DependentUpon>Labyrinth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PairedPictures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PairedPictures.Designer.cs">
+      <DependentUpon>PairedPictures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plural.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plural.Designer.cs">
+      <DependentUpon>Plural.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sounds.cs" />
+    <EmbeddedResource Include="Alphabet.resx">
+      <DependentUpon>Alphabet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnglishWords.resx">
+      <DependentUpon>EnglishWords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Articles.resx">
+      <DependentUpon>Articles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labyrinth.resx">
+      <DependentUpon>Labyrinth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PairedPictures.resx">
+      <DependentUpon>PairedPictures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plural.resx">
+      <DependentUpon>Plural.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.wav" />
+    <None Include="bin\Debug\2.wav" />
+    <None Include="bin\Debug\3.wav" />
+    <None Include="bin\Debug\4.wav" />
+    <None Include="bin\Debug\5.wav" />
+    <None Include="bin\Debug\6.wav" />
+    <None Include="bin\Debug\7.wav" />
+    <None Include="bin\Debug\8.wav" />
+    <None Include="bin\Debug\9.wav" />
+    <None Include="bin\Debug\10.wav" />
+    <None Include="bin\Debug\11.wav" />
+    <None Include="bin\Debug\12.wav" />
+    <None Include="bin\Debug\13.wav" />
+    <None Include="bin\Debug\14.wav" />
+    <None Include="bin\Debug\15.wav" />
+    <None Include="bin\Debug\16.wav" />
+    <None Include="bin\Debug\17.wav" />
+    <None Include="bin\Debug\18.wav" />
+    <None Include="bin\Debug\19.wav" />
+    <None Include="bin\Debug\20.wav" />
+    <None Include="bin\Debug\21.wav" />
+    <None Include="bin\Debug\22.wav" />
+    <None Include="bin\Debug\23.wav" />
+    <None Include="bin\Debug\24.wav" />
+    <None Include="bin\Debug\25.wav" />
+    <None Include="bin\Debug\26.wav" />
+    <None Include="bin\Debug\alphabetsong.wav" />
+    <None Include="bin\Debug\apple.wav" />
+    <None Include="bin\Debug\apricot.wav" />
+    <None Include="bin\Debug\arm.wav" />
+    <None Include="bin\Debug\aunt.wav" />
+    <None Include="bin\Debug\avocado.wav" />
+    <None Include="bin\Debug\banana.wav" />
+    <None Include="bin\Debug\bear.wav" />
+    <None Include="bin\Debug\beetroot.wav" />
+    <None Include="bin\Debug\black.wav" />
+    <None Include="bin\Debug\blue.wav" />
+    <None Include="bin\Debug\broccoli.wav" />
+    <None Include="bin\Debug\brown.wav" />
+    <None Include="bin\Debug\cabbage.wav" />
+    <None Include="bin\Debug\camel.wav" />
+    <None Include="bin\Debug\carrot.wav" />
+    <None Include="bin\Debug\cat.wav" />
+    <None Include="bin\Debug\chameleon.wav" />
+    <None Include="bin\Debug\click.wav" />
+    <None Include="bin\Debug\cloudy.wav" />
+    <None Include="bin\Debug\cold.wav" />
+    <None Include="bin\Debug\corn.wav" />
+    <None Include="bin\Debug\crocodile.wav" />
+    <None Include="bin\Debug\cucumber.wav" />
+    <None Include="bin\Debug\daughter.wav" />
+    <None Include="bin\Debug\dog.wav" />
+    <None Include="bin\Debug\ear.wav" />
+    <None Include="bin\Debug\elephant.wav" />
+    <None Include="bin\Debug\eye.wav" />
+    <None Include="bin\Debug\father.wav" />
+    <None Include="bin\Debug\finger.wav" />
+    <None Include="bin\Debug\fish.wav" />
+    <None Include="bin\Debug\foggy.wav" />
+    <None Include="bin\Debug\foot.wav" />
+    <None Include="bin\Debug\fox.wav" />
+    <None Include="bin\Debug\frog.wav" />
+    <None Include="bin\Debug\giraffe.wav" />
+    <None Include="bin\Debug\grandfather.wav" />
+    <None Include="bin\Debug\grandmother.wav" />
+    <None Include="bin\Debug\gray.wav" />
+    <None Include="bin\Debug\green.wav" />
+    <None Include="bin\Debug\hair.wav" />
+    <None Include="bin\Debug\hamster.wav" />
+    <None Include="bin\Debug\hand.wav" />
+    <None Include="bin\Debug\hare.wav" />
+    <None Include="bin\Debug\head.wav" />
+    <None Include="bin\Debug\hippopotamus.wav" />
+    <None Include="bin\Debug\horse.wav" />
+    <None Include="bin\Debug\hot.wav" />
+    <None Include="bin\Debug\kangaroo.wav" />
+    <None Include="bin\Debug\knee.wav" />
+    <None Include="bin\Debug\leg.wav" />
+    <None Include="bin\Debug\lemon.wav" />
+    <None Include="bin\Debug\leopard.wav" />
+    <None Include="bin\Debug\lion.wav" />
+    <None Include="bin\Debug\lip.wav" />
+    <None Include="bin\Debug\lizard.wav" />
+    <None Include="bin\Debug\mainsong.wav" />
+    <None Include="bin\Debug\mandarin.wav" />
+    <None Include="bin\Debug\monkey.wav" />
+    <None Include="bin\Debug\mother.wav" />
+    <None Include="bin\Debug\mouth.wav" />
+    <None Include="bin\Debug\nose.wav" />
+    <None Include="bin\Debug\onion.wav" />
+    <None Include="bin\Debug\orange.wav" />
+    <None Include="bin\Debug\panda.wav" />
+    <None Include="bin\Debug\parrot.wav" />
+    <None Include="bin\Debug\pea.wav" />
+    <None Include="bin\Debug\peach.wav" />
+    <None Include="bin\Debug\pear.wav" />
+    <None Include="bin\Debug\pineapple.wav" />
+    <None Include="bin\Debug\pink.wav" />
+    <None Include="bin\Debug\plum.wav" />
+    <None Include="bin\Debug\potato.wav" />
+    <None Include="bin\Debug\purple.wav" />
+    <None Include="bin\Debug\rabbit.wav" />
+    <None Include="bin\Debug\radish.wav" />
+    <None Include="bin\Debug\rainy.wav" />
+    <None Include="bin\Debug\red.wav" />
+    <None Include="bin\Debug\shark.wav" />
+    <None Include="bin\Debug\snowy.wav" />
+    <None Include="bin\Debug\son.wav" />
+    <None Include="bin\Debug\sunny.wav" />
+    <None Include="bin\Debug\tiger.wav" />
+    <None Include="bin\Debug\tomato.wav" />
+    <None Include="bin\Debug\tongue.wav" />
+    <None Include="bin\Debug\tooth.wav" />
+    <None Include="bin\Debug\turtle.wav" />
+    <None Include="bin\Debug\uncle.wav" />
+    <None Include="bin\Debug\warm.wav" />
+    <None Include="bin\Debug\white.wav" />
+    <None Include="bin\Debug\wolf.wav" />
+    <None Include="bin\Debug\wrong.wav" />
+    <None Include="bin\Debug\yellow.wav" />
+    <None Include="bin\Debug\zebra.wav" />
+    <None Include="bin\Debug\icon.ico" />
+    <None Include="bin\Debug\1a.jpg" />
+    <None Include="bin\Debug\2.jpg" />
+    <None Include="bin\Debug\2a.jpg" />
+    <None Include="bin\Debug\3.jpg" />
+    <None Include="bin\Debug\3a.jpg" />
+    <None Include="bin\Debug\4.jpg" />
+    <None Include="bin\Debug\4a.jpg" />
+    <None Include="bin\Debug\5.jpg" />
+    <None Include="bin\Debug\5a.jpg" />
+    <None Include="bin\Debug\6.jpg" />
+    <None Include="bin\Debug\6a.jpg" />
+    <None Include="bin\Debug\7.jpg" />
+    <None Include="bin\Debug\7a.jpg" />
+    <None Include="bin\Debug\8.jpg" />
+    <None Include="bin\Debug\8a.jpg" />
+    <None Include="bin\Debug\9.jpg" />
+    <None Include="bin\Debug\9a.jpg" />
+    <None Include="bin\Debug\10.jpg" />
+    <None Include="bin\Debug\10a.jpg" />
+    <None Include="bin\Debug\11.jpg" />
+    <None Include="bin\Debug\11a.jpg" />
+    <None Include="bin\Debug\12.jpg" />
+    <None Include="bin\Debug\12a.jpg" />
+    <None Include="bin\Debug\13.jpg" />
+    <None Include="bin\Debug\13a.jpg" />
+    <None Include="bin\Debug\14.jpg" />
+    <None Include="bin\Debug\14a.jpg" />
+    <None Include="bin\Debug\15.jpg" />
+    <None Include="bin\Debug\15a.jpg" />
+    <None Include="bin\Debug\16.jpg" />
+    <None Include="bin\Debug\16a.jpg" />
+    <None Include="bin\Debug\17.jpg" />
+    <None Include="bin\Debug\17a.jpg" />
+    <None Include="bin\Debug\18.jpg" />
+    <None Include="bin\Debug\18a.jpg" />
+    <None Include="bin\Debug\19.jpg" />
+    <None Include="bin\Debug\19a.jpg" />
+    <None Include="bin\Debug\20.jpg" />
+    <None Include="bin\Debug\20a.jpg" />
+    <None Include="bin\Debug\21.jpg" />
+    <None Include="bin\Debug\21a.jpg" />
+    <None Include="bin\Debug\22.jpg" />
+    <None Include="bin\Debug\22a.jpg" />
+    <None Include="bin\Debug\23.jpg" />
+    <None Include="bin\Debug\23a.jpg" />
+    <None Include="bin\Debug\24.jpg" />
+    <None Include="bin\Debug\24a.jpg" />
+    <None Include="bin\Debug\25.jpg" />
+    <None Include="bin\Debug\25a.jpg" />
+    <None Include="bin\Debug\26.jpg" />
+    <None Include="bin\Debug\26a.jpg" />
+    <None Include="bin\Debug\4380.jpg" />
+    <None Include="bin\Debug\a book.png" />
+    <None Include="bin\Debug\a car.png" />
+    <None Include="bin\Debug\a cat.png" />
+    <None Include="bin\Debug\a house.png" />
+    <None Include="bin\Debug\a milk.png" />
+    <None Include="bin\Debug\a mouse.png" />
+    <None Include="bin\Debug\a tree.png" />
+    <None Include="bin\Debug\aa.PNG" />
+    <None Include="bin\Debug\an apple.png" />
+    <None Include="bin\Debug\an ear.png" />
+    <None Include="bin\Debug\an egg.png" />
+    <None Include="bin\Debug\an elephant.png" />
+    <None Include="bin\Debug\an ice-cream.png" />
+    <None Include="bin\Debug\an octopus.png" />
+    <None Include="bin\Debug\an umbrella.png" />
+    <None Include="bin\Debug\apple.jpg" />
+    <None Include="bin\Debug\apples.png" />
+    <None Include="bin\Debug\apricot.jpg" />
+    <None Include="bin\Debug\arm.jpg" />
+    <None Include="bin\Debug\aunt.jpg" />
+    <None Include="bin\Debug\avocado.jpg" />
+    <None Include="bin\Debug\babies.png" />
+    <None Include="bin\Debug\banana.jpg" />
+    <None Include="bin\Debug\bb.PNG" />
+    <None Include="bin\Debug\bear.jpg" />
+    <None Include="bin\Debug\beetroot.jpg" />
+    <None Include="bin\Debug\black.jpg" />
+    <None Include="bin\Debug\blue.jpg" />
+    <None Include="bin\Debug\books.png" />
+    <None Include="bin\Debug\broccoli.jpg" />
+    <None Include="bin\Debug\brown.jpg" />
+    <None Include="bin\Debug\cabbage.jpg" />
+    <None Include="bin\Debug\camel.jpg" />
+    <None Include="bin\Debug\carrot.jpg" />
+    <None Include="bin\Debug\cat.jpg" />
+    <None Include="bin\Debug\cc.PNG" />
+    <None Include="bin\Debug\chameleon.jpg" />
+    <None Include="bin\Debug\check.png" />
+    <None Include="bin\Debug\children.png" />
+    <None Include="bin\Debug\close.png" />
+    <None Include="bin\Debug\clouds.png" />
+    <None Include="bin\Debug\cloudy.jpg" />
+    <None Include="bin\Debug\cold.jpg" />
+    <None Include="bin\Debug\corn.jpg" />
+    <None Include="bin\Debug\crocodile.jpg" />
+    <None Include="bin\Debug\cucumber.jpg" />
+    <None Include="bin\Debug\daughter.jpg" />
+    <None Include="bin\Debug\dd.PNG" />
+    <None Include="bin\Debug\default.jpg" />
+    <None Include="bin\Debug\dog.jpg" />
+    <None Include="bin\Debug\dogs.png" />
+    <None Include="bin\Debug\door.png" />
+    <None Include="bin\Debug\ear.jpg" />
+    <None Include="bin\Debug\ee.PNG" />
+    <None Include="bin\Debug\elephant.jpg" />
+    <None Include="bin\Debug\english.png" />
+    <None Include="bin\Debug\exit.png" />
+    <None Include="bin\Debug\exit2.png" />
+    <None Include="bin\Debug\Exitmain.png" />
+    <None Include="bin\Debug\eye.jpg" />
+    <None Include="bin\Debug\father.jpg" />
+    <None Include="bin\Debug\feet.png" />
+    <None Include="bin\Debug\ff.PNG" />
+    <None Include="bin\Debug\finger.jpg" />
+    <None Include="bin\Debug\fish.jpg" />
+    <None Include="bin\Debug\fish.png" />
+    <None Include="bin\Debug\foggy.jpg" />
+    <None Include="bin\Debug\fon.png" />
+    <None Include="bin\Debug\foot.jpg" />
+    <None Include="bin\Debug\fox.jpg" />
+    <None Include="bin\Debug\foxes.png" />
+    <None Include="bin\Debug\frog.jpg" />
+    <None Include="bin\Debug\gg.PNG" />
+    <None Include="bin\Debug\giraffe.jpg" />
+    <None Include="bin\Debug\giraffes.png" />
+    <None Include="bin\Debug\grammar.jpg" />
+    <None Include="bin\Debug\grandfather.jpg" />
+    <None Include="bin\Debug\grandmother.jpg" />
+    <None Include="bin\Debug\gray.jpg" />
+    <None Include="bin\Debug\green.jpg" />
+    <None Include="bin\Debug\hair.jpg" />
+    <None Include="bin\Debug\hamster.jpg" />
+    <None Include="bin\Debug\hand.jpg" />
+    <None Include="bin\Debug\hare.jpg" />
+    <None Include="bin\Debug\head.jpg" />
+    <None Include="bin\Debug\hh.PNG" />
+    <None Include="bin\Debug\hippopotamus.jpg" />
+    <None Include="bin\Debug\horse.jpg" />
+    <None Include="bin\Debug\hot.jpg" />
+    <None Include="bin\Debug\ii.PNG" />
+    <None Include="bin\Debug\jj.PNG" />
+    <None Include="bin\Debug\kangaroo.jpg" />
+    <None Include="bin\Debug\kk.PNG" />
+    <None Include="bin\Debug\knee.jpg" />
+    <None Include="bin\Debug\left.png" />
+    <None Include="bin\Debug\leg.jpg" />
+    <None Include="bin\Debug\lemon.jpg" />
+    <None Include="bin\Debug\leopard.jpg" />
+    <None Include="bin\Debug\lion.jpg" />
+    <None Include="bin\Debug\lip.jpg" />
+    <None Include="bin\Debug\lizard.jpg" />
+    <None Include="bin\Debug\ll.PNG" />
+    <None Include="bin\Debug\man.PNG" />
+    <None Include="bin\Debug\mandarin.jpg" />
+    <None Include="bin\Debug\mann.png" />
+    <None Include="bin\Debug\mannright.png" />
+    <None Include="bin\Debug\mice.png" />
+    <None Include="bin\Debug\mm.PNG" />
+    <None Include="bin\Debug\monkey.jpg" />
+    <None Include="bin\Debug\mother.jpg" />
+    <None Include="bin\Debug\mouth.jpg" />
+    <None Include="bin\Debug\nn.PNG" />
+    <None Include="bin\Debug\nose.jpg" />
+    <None Include="bin\Debug\onion.jpg" />
+    <None Include="bin\Debug\oo.PNG" />
+    <None Include="bin\Debug\orange.jpg" />
+    <None Include="bin\Debug\PairedPictures.png" />
+    <None Include="bin\Debug\panda.jpg" />
+    <None Include="bin\Debug\parrot.jpg" />
+    <None Include="bin\Debug\pea.jpg" />
+    <None Include="bin\Debug\peach.jpg" />
+    <None Include="bin\Debug\pear.jpg" />
+    <None Include="bin\Debug\pineapple.jpg" />
+    <None Include="bin\Debug\pink.jpg" />
+    <None Include="bin\Debug\plum.jpg" />
+    <None Include="bin\Debug\plural.jpg" />
+    <None Include="bin\Debug\potato.jpg" />
+    <None Include="bin\Debug\pp.PNG" />
+    <None Include="bin\Debug\purple.jpg" />
+    <None Include="bin\Debug\Pushka.png" />
+    <None Include="bin\Debug\qq.PNG" />
+    <None Include="bin\Debug\rabbit.jpg" />
+    <None Include="bin\Debug\radish.jpg" />
+    <None Include="bin\Debug\rainy.jpg" />
+    <None Include="bin\Debug\red.JPG" />
+    <None Include="bin\Debug\right.png" />
+    <None Include="bin\Debug\rr.PNG" />
+    <None Include="bin\Debug\rules.PNG" />
+    <None Include="bin\Debug\rulesplural.jpg" />
+    <None Include="bin\Debug\shark.jpg" />
+    <None Include="bin\Debug\shelves.png" />
+    <None Include="bin\Debug\snowy.jpg" />
+    <None Include="bin\Debug\son.jpg" />
+    <None Include="bin\Debug\soundoff.png" />
+    <None Include="bin\Debug\soundon.png" />
+    <None Include="bin\Debug\ss.PNG" />
+    <None Include="bin\Debug\startlearning.jpg" />
+    <None Include="bin\Debug\sunny.jpg" />
+    <None Include="bin\Debug\tiger.jpg" />
+    <None Include="bin\Debug\tomato.jpg" />
+    <None Include="bin\Debug\tongue.jpg" />
+    <None Include="bin\Debug\tooth.jpg" />
+    <None Include="bin\Debug\tt.PNG" />
+    <None Include="bin\Debug\turtle.jpg" />
+    <None Include="bin\Debug\turtles.png" />
+    <None Include="bin\Debug\uncle.jpg" />
+    <None Include="bin\Debug\uu.PNG" />
+    <None Include="bin\Debug\vv.PNG" />
+    <None Include="bin\Debug\warm.jpg" />
+    <None Include="bin\Debug\white.jpg" />
+    <None Include="bin\Debug\wolf.jpg" />
+    <None Include="bin\Debug\wolves.png" />
+    <None Include="bin\Debug\ww.PNG" />
+    <None Include="bin\Debug\xx.PNG" />
+    <None Include="bin\Debug\yellow.jpg" />
+    <None Include="bin\Debug\yy.PNG" />
+    <None Include="bin\Debug\zebra.jpg" />
+    <None Include="bin\Debug\zz.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flechas.gif" />
+    <None Include="bin\Debug\help.png" />
+    <None Include="bin\Debug\restart.png" />
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

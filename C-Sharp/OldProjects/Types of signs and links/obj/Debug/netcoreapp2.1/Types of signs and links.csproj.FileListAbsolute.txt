@@ -1,0 +1,10 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\bin\Debug\netcoreapp2.1\Types of signs and links.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\bin\Debug\netcoreapp2.1\Types of signs and links.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\bin\Debug\netcoreapp2.1\Types of signs and links.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\bin\Debug\netcoreapp2.1\Types of signs and links.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\bin\Debug\netcoreapp2.1\Types of signs and links.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\obj\Debug\netcoreapp2.1\Types of signs and links.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\obj\Debug\netcoreapp2.1\Types of signs and links.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\obj\Debug\netcoreapp2.1\Types of signs and links.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\obj\Debug\netcoreapp2.1\Types of signs and links.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Types of signs and links\obj\Debug\netcoreapp2.1\Types of signs and links.pdb

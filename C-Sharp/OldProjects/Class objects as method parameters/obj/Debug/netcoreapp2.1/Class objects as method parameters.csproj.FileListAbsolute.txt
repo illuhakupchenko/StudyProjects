@@ -1,0 +1,10 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\bin\Debug\netcoreapp2.1\Class objects as method parameters.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\bin\Debug\netcoreapp2.1\Class objects as method parameters.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\bin\Debug\netcoreapp2.1\Class objects as method parameters.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\bin\Debug\netcoreapp2.1\Class objects as method parameters.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\bin\Debug\netcoreapp2.1\Class objects as method parameters.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\obj\Debug\netcoreapp2.1\Class objects as method parameters.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\obj\Debug\netcoreapp2.1\Class objects as method parameters.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\obj\Debug\netcoreapp2.1\Class objects as method parameters.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\obj\Debug\netcoreapp2.1\Class objects as method parameters.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Class objects as method parameters\obj\Debug\netcoreapp2.1\Class objects as method parameters.pdb

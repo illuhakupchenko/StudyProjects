@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\bin\Debug\netcoreapp2.1\Conditional_Operators.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\bin\Debug\netcoreapp2.1\Conditional_Operators.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\bin\Debug\netcoreapp2.1\Conditional_Operators.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\bin\Debug\netcoreapp2.1\Conditional_Operators.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\bin\Debug\netcoreapp2.1\Conditional_Operators.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\obj\Debug\netcoreapp2.1\Conditional_Operators.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\obj\Debug\netcoreapp2.1\Conditional_Operators.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\obj\Debug\netcoreapp2.1\Conditional_Operators.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\obj\Debug\netcoreapp2.1\Conditional_Operators.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\obj\Debug\netcoreapp2.1\Conditional_Operators.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Operators\obj\Debug\netcoreapp2.1\Conditional_Operators.pdb

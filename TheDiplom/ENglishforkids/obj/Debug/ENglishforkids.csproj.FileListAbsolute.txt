@@ -1,0 +1,60 @@
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.exe.config
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.exe
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.pdb
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Alphabet.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.EnglishWords.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Articles.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Labyrinth.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.MainMenu.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.PairedPictures.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Plural.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Properties.Resources.resources
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.GenerateResource.cache
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.CoreCompileInputs.cache
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.exe
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.pdb
+C:\Users\Trosh4er\Desktop\Алфавит\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csprojResolveAssemblyReference.cache
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.exe
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.pdb
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Alphabet.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.EnglishWords.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Articles.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Labyrinth.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.MainMenu.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.PairedPictures.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Plural.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Properties.Resources.resources
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.GenerateResource.cache
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.CoreCompileInputs.cache
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.exe
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.pdb
+C:\Users\Trosh4er\Desktop\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Help.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.exe
+D:\My Diplom\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.pdb
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csprojResolveAssemblyReference.cache
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Alphabet.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.EnglishWords.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Articles.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Labyrinth.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.MainMenu.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.PairedPictures.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Plural.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Properties.Resources.resources
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.GenerateResource.cache
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.CoreCompileInputs.cache
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.exe
+D:\My Diplom\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.pdb
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.exe
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\bin\Debug\ENglishforkids.pdb
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Alphabet.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.EnglishWords.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Articles.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Labyrinth.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.MainMenu.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.PairedPictures.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Plural.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.Properties.Resources.resources
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.GenerateResource.cache
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.csproj.CoreCompileInputs.cache
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.exe
+C:\Users\areku\Desktop\Diplomniki\Kuppchenko\ENglishforkids\ENglishforkids\obj\Debug\ENglishforkids.pdb

@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\bin\Debug\netcoreapp2.1\MagicSquare.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\bin\Debug\netcoreapp2.1\MagicSquare.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\bin\Debug\netcoreapp2.1\MagicSquare.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\bin\Debug\netcoreapp2.1\MagicSquare.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\bin\Debug\netcoreapp2.1\MagicSquare.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\obj\Debug\netcoreapp2.1\MagicSquare.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\obj\Debug\netcoreapp2.1\MagicSquare.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\obj\Debug\netcoreapp2.1\MagicSquare.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\obj\Debug\netcoreapp2.1\MagicSquare.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\obj\Debug\netcoreapp2.1\MagicSquare.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\MagicSquare\obj\Debug\netcoreapp2.1\MagicSquare.pdb

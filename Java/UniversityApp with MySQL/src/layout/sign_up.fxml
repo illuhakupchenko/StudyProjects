@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="590" maxWidth="890" minHeight="590" minWidth="890" prefHeight="590.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.SignUpController">
+   <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" smooth="false">
+      <Image url="@../media/main.png" />
+   </ImageView>
+   <AnchorPane layoutX="119.0" layoutY="77.0" opacity="0.68" prefHeight="446.0" prefWidth="663.0" style="-fx-background-color: #364a65; -fx-opacity: 0.4; -fx-border-radius: 20;" />
+   <AnchorPane layoutY="90.0" prefHeight="421.0" prefWidth="900.0">
+      <TextField fx:id="surname_field" layoutX="190.0" layoutY="50.0" prefHeight="35.0" prefWidth="230.0" promptText="Прізвище">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="sign_UP_btn" layoutX="522.0" layoutY="336.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="188.0" style="-fx-background-color: #f30956;" text="Зареэструватися" textFill="#e1e1e1">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="name_field" layoutX="480.0" layoutY="50.0" prefHeight="35.0" prefWidth="230.0" promptText="Ім'я">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="secname_field" layoutX="190.0" layoutY="120.0" prefHeight="35.0" prefWidth="230.0" promptText="По-батькові">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="degree_field" layoutX="480.0" layoutY="120.0" prefHeight="35.0" prefWidth="230.0" promptText="Науковий ступінь">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="position_field" layoutX="190.0" layoutY="190.0" prefHeight="35.0" prefWidth="230.0" promptText="Посада">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="login_field" layoutX="480.0" layoutY="190.0" prefHeight="35.0" prefWidth="230.0" promptText="Логін">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="uploadIMG_btn" layoutX="522.0" layoutY="260.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="188.0" style="-fx-background-color: #148ce7;" text="Завантажити фото" textFill="#e0e0e0">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="password_field" layoutX="190.0" layoutY="260.0" prefHeight="35.0" prefWidth="230.0" promptText="Пароль">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="imgView" fitHeight="93.0" fitWidth="82.0" layoutX="433.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="miniImage" fitHeight="69.0" fitWidth="73.0" layoutX="437.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true" />
+   </AnchorPane>
+</AnchorPane>

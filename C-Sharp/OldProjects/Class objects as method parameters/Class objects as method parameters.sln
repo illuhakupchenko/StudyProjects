@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class objects as method parameters", "Class objects as method parameters.csproj", "{66D58D84-6F9B-450C-A5D5-FC1EC30BBF99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D58D84-6F9B-450C-A5D5-FC1EC30BBF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D58D84-6F9B-450C-A5D5-FC1EC30BBF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D58D84-6F9B-450C-A5D5-FC1EC30BBF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D58D84-6F9B-450C-A5D5-FC1EC30BBF99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {633C0E9B-0850-4EB7-BA0D-F96779B6974C}
+	EndGlobalSection
+EndGlobal

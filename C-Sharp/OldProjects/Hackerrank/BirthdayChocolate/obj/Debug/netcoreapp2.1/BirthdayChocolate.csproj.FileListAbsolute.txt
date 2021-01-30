@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\bin\Debug\netcoreapp2.1\BirthdayChocolate.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\bin\Debug\netcoreapp2.1\BirthdayChocolate.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\bin\Debug\netcoreapp2.1\BirthdayChocolate.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\bin\Debug\netcoreapp2.1\BirthdayChocolate.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\bin\Debug\netcoreapp2.1\BirthdayChocolate.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\obj\Debug\netcoreapp2.1\BirthdayChocolate.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\obj\Debug\netcoreapp2.1\BirthdayChocolate.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\obj\Debug\netcoreapp2.1\BirthdayChocolate.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\obj\Debug\netcoreapp2.1\BirthdayChocolate.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\obj\Debug\netcoreapp2.1\BirthdayChocolate.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\BirthdayChocolate\obj\Debug\netcoreapp2.1\BirthdayChocolate.pdb

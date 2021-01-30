@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\obj\Debug\netcoreapp2.1\Kangaroo.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\obj\Debug\netcoreapp2.1\Kangaroo.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\obj\Debug\netcoreapp2.1\Kangaroo.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\obj\Debug\netcoreapp2.1\Kangaroo.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\bin\Debug\netcoreapp2.1\Kangaroo.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\bin\Debug\netcoreapp2.1\Kangaroo.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\bin\Debug\netcoreapp2.1\Kangaroo.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\bin\Debug\netcoreapp2.1\Kangaroo.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\bin\Debug\netcoreapp2.1\Kangaroo.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\obj\Debug\netcoreapp2.1\Kangaroo.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Kangaroo\obj\Debug\netcoreapp2.1\Kangaroo.pdb

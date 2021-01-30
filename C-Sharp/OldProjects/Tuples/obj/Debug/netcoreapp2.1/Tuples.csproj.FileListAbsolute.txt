@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\bin\Debug\netcoreapp2.1\Tuples.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\bin\Debug\netcoreapp2.1\Tuples.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\bin\Debug\netcoreapp2.1\Tuples.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\bin\Debug\netcoreapp2.1\Tuples.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\bin\Debug\netcoreapp2.1\Tuples.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\obj\Debug\netcoreapp2.1\Tuples.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\obj\Debug\netcoreapp2.1\Tuples.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\obj\Debug\netcoreapp2.1\Tuples.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\obj\Debug\netcoreapp2.1\Tuples.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\obj\Debug\netcoreapp2.1\Tuples.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Tuples\obj\Debug\netcoreapp2.1\Tuples.pdb

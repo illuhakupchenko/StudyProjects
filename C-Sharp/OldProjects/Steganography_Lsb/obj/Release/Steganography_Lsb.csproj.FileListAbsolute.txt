@@ -1,0 +1,9 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\bin\Release\Steganography_Lsb.exe.config
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\bin\Release\Steganography_Lsb.exe
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\bin\Release\Steganography_Lsb.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\obj\Release\Steganography_Lsb.Steganography_Lsb.resources
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\obj\Release\Steganography_Lsb.Properties.Resources.resources
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\obj\Release\Steganography_Lsb.csproj.GenerateResource.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\obj\Release\Steganography_Lsb.exe
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\obj\Release\Steganography_Lsb.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Steganography_Lsb\obj\Release\Steganography_Lsb.csprojAssemblyReference.cache

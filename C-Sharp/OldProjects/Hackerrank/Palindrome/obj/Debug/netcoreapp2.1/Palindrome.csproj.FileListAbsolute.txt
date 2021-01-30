@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.pdb

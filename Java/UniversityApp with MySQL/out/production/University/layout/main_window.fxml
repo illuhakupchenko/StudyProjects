@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="590.0" maxWidth="890.0" minHeight="590.0" minWidth="890.0" prefHeight="590.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.MainWindowController">
+   <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #2f5b97;">
+      <ImageView fx:id="photoUser" fitHeight="180.0" fitWidth="180.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../media/student.jpg" />
+      </ImageView>
+      <Label fx:id="name_label" layoutX="10.0" layoutY="205.0" prefHeight="105.0" prefWidth="180.0" textFill="#f2f2f2" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="degree_label" layoutX="10.0" layoutY="330.0" prefHeight="80.0" prefWidth="180.0" textFill="#f2f2f2" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitMainW_btn" layoutX="19.0" layoutY="543.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="162.0" style="-fx-background-color: red;" text="Вихід" textFill="#dddddd">
+         <font>
+            <Font name="Monospaced Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="editProfile" layoutX="19.0" layoutY="468.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="162.0" style="-fx-background-color: yellow;" text="Редагувати профіль" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </AnchorPane>
+   <ImageView fitHeight="600.0" fitWidth="700.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../media/kaf.png" />
+   </ImageView>
+   <AnchorPane layoutX="248.0" layoutY="165.0" opacity="0.23" prefHeight="270.0" prefWidth="604.0" style="-fx-background-color: #293ff9;" />
+   <AnchorPane layoutX="200.0" prefHeight="600.0" prefWidth="700.0">
+      <Button fx:id="graduateStudent_btn" layoutX="108.0" layoutY="215.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Аспіранти">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="group_btn" layoutX="108.0" layoutY="285.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Групи">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="syllabus_btn" layoutX="108.0" layoutY="355.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Навчальний план">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="schedule_btn" layoutX="387.0" layoutY="215.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Розклад занять">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="diplomaWork_btn" layoutX="387.0" layoutY="285.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Дипломні роботи">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="employee_btn" layoutX="387.0" layoutY="355.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Співробітники">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </Button>
+   </AnchorPane>
+   <Pane fx:id="graduateStudent_panel" layoutX="200.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+      <Label layoutX="70.0" layoutY="150.0" text="Прізвище:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="195.0" text="Ім'я:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="240.0" text="По-батькові:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="44.0" text="Аспіранти">
+         <font>
+            <Font name="Monospaced Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="285.0" text="Керівник:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="330.0" text="Науковий напрямок:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="403.0" text="Тема дослідження:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="asp_prev_btn" disable="true" layoutX="70.0" layoutY="521.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="&lt;-">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="asp_next_btn" layoutX="558.0" layoutY="521.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="-&gt;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="asp_surnname" layoutX="194.0" layoutY="150.0">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="asp_name" layoutX="142.0" layoutY="195.0">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="asp_secname" layoutX="226.0" layoutY="240.0">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="asp_surviser" layoutX="194.0" layoutY="285.0">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="asp_sci_dir" alignment="TOP_LEFT" layoutX="296.0" layoutY="335.0" prefHeight="54.0" prefWidth="389.0" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="asp_theme" alignment="TOP_LEFT" layoutX="286.0" layoutY="409.0" prefHeight="80.0" prefWidth="372.0" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeAsp_btn" layoutX="190.0" layoutY="532.0" mnemonicParsing="false" text="Повернутися до головного меню">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="add_asp_btn" layoutX="136.0" layoutY="481.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="155.0" style="-fx-background-color: green;" text="Додати запис" textFill="#f2f2f2">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="edit_asp_btn" layoutX="307.0" layoutY="481.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="134.0" style="-fx-background-color: yellow;" text="Редагувати">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="delete_asp_btn" layoutX="457.0" layoutY="481.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="108.0" style="-fx-background-color: red;" text="Вилучити" textFill="#e8e8e8">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane fx:id="asp_panel_edit" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #ececec;" visible="false">
+         <Pane prefHeight="600.0" prefWidth="700.0">
+            <TextArea fx:id="asp_editTheme_Field" layoutX="286.0" layoutY="403.0" prefHeight="71.0" prefWidth="389.0" promptText="Тема дослідження" wrapText="true">
+               <font>
+                  <Font name="Monospaced Bold" size="14.0" />
+               </font>
+            </TextArea>
+            <TextArea fx:id="asp_edit_Sci_dir_Field" layoutX="286.0" layoutY="331.0" prefHeight="54.0" prefWidth="389.0" promptText="Науковий напрямок" wrapText="true">
+               <font>
+                  <Font name="Monospaced Bold" size="14.0" />
+               </font>
+            </TextArea>
+            <TextField fx:id="asp_secnameFiled" layoutX="224.0" layoutY="241.0" prefHeight="27.0" prefWidth="252.0" promptText="По-батькові">
+               <font>
+                  <Font name="Monospaced Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="asp_surnameFiled" layoutX="189.0" layoutY="150.0" prefHeight="27.0" prefWidth="287.0" promptText="Прізвище">
+               <font>
+                  <Font name="Monospaced Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="asp_nameFiled" layoutX="141.0" layoutY="194.0" prefHeight="27.0" prefWidth="335.0" promptText="Ім'я">
+               <font>
+                  <Font name="Monospaced Bold" size="14.0" />
+               </font>
+            </TextField>
+            <ComboBox fx:id="asp_ComboBox" layoutX="200.0" layoutY="286.0" prefHeight="29.0" prefWidth="276.0" promptText="Керівник">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ComboBox>
+            <Button fx:id="asp_change_btn" layoutX="189.0" layoutY="533.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="162.0" text="Змінити">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="asp_hidePan_btn" layoutX="350.0" layoutY="533.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="180.0" text="Назад">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="68.0" layoutY="152.0" text="Прізвище:">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="196.0" text="Ім'я:">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="243.0" text="По-батькові:">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="289.0" text="Керівник:">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="334.0" text="Науковий напрямок:">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="403.0" text="Тема дослідження:">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Label>
+         </Pane>
+      </Pane>
+   </Pane>
+   <Pane fx:id="group_panel" accessibleText="hffg" layoutX="200.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+      <Label fx:id="label_groups" layoutX="70.0" layoutY="53.0" text="Група">
+         <font>
+            <Font name="Monospaced Bold" size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="groups_table" layoutX="70.0" layoutY="123.0" onMouseClicked="#onTableSelectItem" prefHeight="338.0" prefWidth="566.0">
+         <columns>
+            <TableColumn fx:id="id_group" prefWidth="54.0" text="Студент" />
+            <TableColumn fx:id="surname_group" prefWidth="170.0" text="Прізвище" />
+            <TableColumn fx:id="name_group" minWidth="6.0" prefWidth="170.0" text="Ім'я" />
+            <TableColumn fx:id="secname_group" minWidth="0.0" prefWidth="170.0" text="По-батькові" />
+         </columns>
+      </TableView>
+      <TableView fx:id="syllabus" layoutX="70.0" layoutY="123.0" onMouseClicked="#onTableSelectItem" prefHeight="340.0" prefWidth="566.0" visible="false">
+         <columns>
+            <TableColumn fx:id="subject" prefWidth="268.0" text="Предмети" />
+            <TableColumn fx:id="nameTeacher" prefWidth="195.0" text="Викладач" />
+            <TableColumn fx:id="hours" minWidth="0.0" prefWidth="48.0" text="Години" />
+            <TableColumn fx:id="exam" minWidth="0.0" prefWidth="53.0" text="Екзамен" />
+         </columns>
+      </TableView>
+      <Button fx:id="group_next_btn" layoutX="566.0" layoutY="527.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="-&gt;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="group_prev_btn" disable="true" layoutX="70.0" layoutY="527.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="&lt;-">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="closeGroup_btn" layoutX="193.0" layoutY="538.0" mnemonicParsing="false" text="Повернутися до головного меню">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="addGroup_btn" layoutX="70.0" layoutY="479.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="216.0" style="-fx-background-color: green;" text="Додати новий запис" textFill="#f2f2f2">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="editGroup_btn" layoutX="302.0" layoutY="479.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: yellow;" text="Редагувати">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="deleteGroup_btn" layoutX="481.0" layoutY="479.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="155.0" style="-fx-background-color: red;" text="Вилучити" textFill="#e8e8e8">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane fx:id="add_editPanel" opacity="0.82" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: gray;" visible="false">
+         <Pane layoutX="-86.0" layoutY="1.0" prefHeight="600.0" prefWidth="788.0">
+            <TextField fx:id="add_edit_nameField" layoutX="191.0" layoutY="252.0" promptText="Ім'я">
+               <font>
+                  <Font name="Monospaced Bold" size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="add_edit_surnnameField" layoutX="331.0" layoutY="252.0" promptText="Прізвище">
+               <font>
+                  <Font name="Monospaced Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="add_edit_Final_btn" layoutX="233.0" layoutY="329.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="126.0" text="Додати">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="add_edit_secnameField" layoutX="471.0" layoutY="252.0" promptText="По-батькові">
+               <font>
+                  <Font name="Monospaced Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="add_edit_Hide_btn" layoutX="363.0" layoutY="329.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="216.0" text="Повернутися назад">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </Pane>
+      </Pane>
+      <Pane fx:id="add_editPanel_syllabus" opacity="0.82" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: gray;" visible="false">
+         <Pane layoutX="-86.0" layoutY="1.0" prefHeight="600.0" prefWidth="788.0">
+            <TextField fx:id="add_edit_subjectField" layoutX="140.0" layoutY="166.0" prefHeight="29.0" prefWidth="604.0" promptText="Назва предмету">
+               <font>
+                  <Font name="Monospaced Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="add_edit_Final_btn1" layoutX="233.0" layoutY="396.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="126.0" text="Додати">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="add_edit_hoursField" layoutX="140.0" layoutY="281.0" prefHeight="29.0" prefWidth="604.0" promptText="Години">
+               <font>
+                  <Font name="Monospaced Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="add_edit_Hide_btn1" layoutX="363.0" layoutY="396.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="216.0" text="Повернутися назад">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="add_edit_examField" layoutX="140.0" layoutY="338.0" prefHeight="29.0" prefWidth="604.0" promptText="Екзамен">
+               <font>
+                  <Font name="Monospaced Bold" size="15.0" />
+               </font>
+            </TextField>
+            <ComboBox fx:id="add_edit_teacherComboBox" layoutX="140.0" layoutY="225.0" prefHeight="25.0" prefWidth="604.0" promptText="Виберіть дисципліну" />
+         </Pane>
+      </Pane>
+   </Pane>
+   <Pane fx:id="schedulePanel" layoutX="200.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+      <Label fx:id="scheduleLabel" layoutX="70.0" layoutY="53.0" text="Розклад занять">
+         <font>
+            <Font name="Monospaced Bold" size="30.0" />
+         </font>
+      </Label>
+      <TabPane fx:id="tabSchedule" layoutX="70.0" layoutY="132.0" prefHeight="290.0" prefWidth="566.0" tabClosingPolicy="UNAVAILABLE">
+         <Tab text="Понеділок">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="286.0" prefWidth="566.0">
+               <TableView fx:id="tableMonday" layoutX="39.0" layoutY="31.0" onMouseClicked="#onTableSelectItem" prefHeight="216.0" prefWidth="488.0">
+                  <columns>
+                     <TableColumn fx:id="subjnumberCol_Monday" prefWidth="50.0" text="Пара№" />
+                     <TableColumn fx:id="subjnameCol_Monday" prefWidth="370.0" text="Предмет" />
+                     <TableColumn fx:id="classCol_Monday" prefWidth="67.0" text="Аудиторія" />
+                  </columns>
+               </TableView>
+            </AnchorPane>
+         </Tab>
+         <Tab text="Вівторок">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <TableView fx:id="tableTuseday" layoutX="39.0" layoutY="31.0" onMouseClicked="#onTableSelectItem" prefHeight="216.0" prefWidth="488.0">
+                  <columns>
+                     <TableColumn fx:id="subjnumberCol_Tuseday" prefWidth="50.0" text="Пара№" />
+                     <TableColumn fx:id="subjnameCol_Tuesday" prefWidth="370.0" text="Предмет" />
+                     <TableColumn fx:id="classCol_Tuesday" prefWidth="67.0" text="Аудиторія" />
+                  </columns>
+               </TableView>
+            </AnchorPane>
+         </Tab>
+         <Tab text="Середа">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <TableView fx:id="tableWednesday" layoutX="39.0" layoutY="31.0" onMouseClicked="#onTableSelectItem" prefHeight="216.0" prefWidth="488.0">
+                  <columns>
+                     <TableColumn fx:id="subjnumberCol_Wednesday" prefWidth="50.0" text="Пара№" />
+                     <TableColumn fx:id="subjnameCol_Wednesday" prefWidth="370.0" text="Предмет" />
+                     <TableColumn fx:id="classCol_Wednesday" prefWidth="67.0" text="Аудиторія" />
+                  </columns>
+               </TableView>
+            </AnchorPane>
+         </Tab>
+         <Tab text="Четвер">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <TableView fx:id="tableThursday" layoutX="39.0" layoutY="31.0" onMouseClicked="#onTableSelectItem" prefHeight="216.0" prefWidth="488.0">
+                  <columns>
+                     <TableColumn fx:id="subjnumberCol_Thursday" prefWidth="50.0" text="Пара№" />
+                     <TableColumn fx:id="subjnameCol_Thursday" prefWidth="370.0" text="Предмет" />
+                     <TableColumn fx:id="classCol_Thursday" prefWidth="67.0" text="Аудиторія" />
+                  </columns>
+               </TableView>
+            </AnchorPane>
+         </Tab>
+         <Tab text="П'ятниця">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <TableView fx:id="tableFriday" layoutX="39.0" layoutY="31.0" onMouseClicked="#onTableSelectItem" prefHeight="216.0" prefWidth="488.0">
+                  <columns>
+                     <TableColumn fx:id="subjnumberCol_Friday" prefWidth="50.0" text="Пара№" />
+                     <TableColumn fx:id="subjnameCol_Friday" prefWidth="370.0" text="Предмет" />
+                     <TableColumn fx:id="classCol_Friday" prefWidth="67.0" text="Аудиторія" />
+                  </columns>
+               </TableView>
+            </AnchorPane>
+         </Tab>
+      </TabPane>
+      <Button fx:id="closeSchedule" layoutX="185.0" layoutY="533.0" mnemonicParsing="false" text="Повернутися до головного меню">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="schedule_next_btn" layoutX="555.0" layoutY="522.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="-&gt;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="schedule_prev_btn" disable="true" layoutX="70.0" layoutY="522.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="&lt;-">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="add_Shedule_btn" layoutX="109.0" layoutY="436.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="155.0" style="-fx-background-color: green;" text="Додати" textFill="#f2f2f2">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="edit_Schedule_btn" layoutX="286.0" layoutY="436.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="134.0" style="-fx-background-color: yellow;" text="Редагувати">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="delete_schedule_btn" layoutX="442.0" layoutY="436.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="155.0" style="-fx-background-color: red;" text="Вилучити" textFill="#e8e8e8">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane fx:id="editPanel_schedule" opacity="0.9" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #ececec;" visible="false">
+         <AnchorPane layoutX="-27.0" layoutY="138.0" prefHeight="340.0" prefWidth="760.0">
+            <TextField fx:id="numberField_schedule" layoutX="138.0" layoutY="153.0" prefHeight="35.0" prefWidth="79.0" promptText="Пара№">
+               <font>
+                  <Font name="Monospaced Bold" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="classField_schedule" layoutX="571.0" layoutY="153.0" prefHeight="35.0" prefWidth="79.0" promptText="Аудиторія">
+               <font>
+                  <Font name="Monospaced Bold" size="18.0" />
+               </font>
+            </TextField>
+            <ComboBox fx:id="subjectsComboBox_schedule" layoutX="226.0" layoutY="158.0" prefHeight="25.0" prefWidth="335.0" promptText="Предмет" />
+            <Button fx:id="add_edit_btn_schedule" layoutX="244.0" layoutY="237.0" mnemonicParsing="false" text="Змінити">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="hide_btn_schedule" layoutX="362.0" layoutY="237.0" mnemonicParsing="false" text="Назад">
+               <font>
+                  <Font name="Monospaced Bold" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </AnchorPane>
+      </Pane>
+   </Pane>
+   <Pane fx:id="studentDiplomPanel" layoutX="200.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+      <Button fx:id="addNewDiplom_btn" layoutX="67.0" layoutY="465.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="216.0" style="-fx-background-color: green;" text="Додати новий запис" textFill="#f2f2f2">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="editDiplom_btn" layoutX="299.0" layoutY="465.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: yellow;" text="Редагувати">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="deleteDiplom_btn" layoutX="478.0" layoutY="465.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="155.0" style="-fx-background-color: red;" text="Вилучити" textFill="#e8e8e8">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="closeDiplom_btn" layoutX="192.0" layoutY="528.0" mnemonicParsing="false" text="Повернутися до головного меню">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TableView fx:id="diplomStudent_table" layoutX="66.0" layoutY="100.0" onMouseClicked="#onTableSelectItem" prefHeight="325.0" prefWidth="566.0">
+         <columns>
+            <TableColumn fx:id="diplomStudent_col" prefWidth="182.0" text="Студент" />
+            <TableColumn fx:id="diplomTeacher_col" prefWidth="158.0" text="Керівник" />
+            <TableColumn fx:id="diplomGroup_col" prefWidth="47.0" text="Група" />
+            <TableColumn fx:id="diplomTheme_col" prefWidth="175.0" text="Тема дипломної роботи" />
+         </columns>
+      </TableView>
+      <Label layoutX="66.0" layoutY="46.0" text="Дипломні роботи">
+         <font>
+            <Font name="Monospaced Bold" size="30.0" />
+         </font>
+      </Label>
+      <Pane fx:id="edit_add_Diplom_Panel" opacity="0.78" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+         <ComboBox fx:id="diplom_Student_Combo" layoutX="125.0" layoutY="288.0" prefHeight="25.0" prefWidth="200.0" promptText="Студент" />
+         <ComboBox fx:id="diplom_Teacher_Combo" layoutX="370.0" layoutY="288.0" prefHeight="25.0" prefWidth="200.0" promptText="Керівник" />
+         <ComboBox fx:id="diplom_Group_Combo" layoutX="125.0" layoutY="345.0" prefHeight="25.0" prefWidth="134.0" promptText="Група" />
+         <TextField fx:id="diplom_Theme_field" layoutX="370.0" layoutY="345.0" prefHeight="25.0" prefWidth="200.0" promptText="Тема дипломної" />
+         <Button fx:id="add_editDiplom_btn" layoutX="247.0" layoutY="391.0" mnemonicParsing="false" text="Змінити">
+            <font>
+               <Font name="Monospaced Bold" size="17.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+         <Button fx:id="hide_btn_Diplom" layoutX="365.0" layoutY="391.0" mnemonicParsing="false" text="Назад">
+            <font>
+               <Font name="Monospaced Bold" size="17.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+      </Pane>
+   </Pane>
+   <Pane fx:id="employees_panel" layoutX="200.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+      <Label layoutX="73.0" layoutY="177.0" text="Ім'я:">
+         <font>
+            <Font name="Monospaced Regular" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="emp_prev_btn" disable="true" layoutX="73.0" layoutY="521.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="&lt;-">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="emp_next_btn" layoutX="561.0" layoutY="521.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="67.0" text="-&gt;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="close_Employees" layoutX="190.0" layoutY="532.0" mnemonicParsing="false" text="Повернутися до головного меню">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="73.0" layoutY="217.0" text="Прізвище:">
+         <font>
+            <Font name="Monospaced Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="261.0" text="По-батькові:">
+         <font>
+            <Font name="Monospaced Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="301.0" text="Науковий ступінь:">
+         <font>
+            <Font name="Monospaced Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="342.0" text="Посада:">
+         <font>
+            <Font name="Monospaced Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="382.0" text="Телефон:">
+         <font>
+            <Font name="Monospaced Regular" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img_emp" fitHeight="180.0" fitWidth="180.0" layoutX="497.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../media/teacher.png" />
+      </ImageView>
+      <Label fx:id="name_emp" layoutX="151.0" layoutY="177.0" text="Ім'я:">
+         <font>
+            <Font name="Monospaced Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="sur_emp" layoutX="216.0" layoutY="217.0" text="Прізвище:">
+         <font>
+            <Font name="Monospaced Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="sec_emp" layoutX="262.0" layoutY="261.0" text="По-батькові:">
+         <font>
+            <Font name="Monospaced Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="degree_emp" layoutX="343.0" layoutY="301.0" text="Науковий ступінь:">
+         <font>
+            <Font name="Monospaced Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="pos_emp" layoutX="190.0" layoutY="342.0" text="Посада:">
+         <font>
+            <Font name="Monospaced Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="tel_emp" layoutX="206.0" layoutY="382.0" text="Телефон:">
+         <font>
+            <Font name="Monospaced Bold" size="26.0" />
+         </font>
+      </Label>
+   </Pane>
+   <Pane fx:id="editProfilePanel" layoutX="200.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #96b6dd;" visible="false">
+      <TextField fx:id="profileName_field" layoutX="60.0" layoutY="144.0" prefHeight="38.0" prefWidth="252.0" promptText="Ім'я">
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="63.0" layoutY="61.0" text="Мій профіль">
+         <font>
+            <Font name="Monospaced Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="profilePosition_field" layoutX="60.0" layoutY="404.0" prefHeight="38.0" prefWidth="252.0" promptText="Посада">
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="profileDegree_field" layoutX="60.0" layoutY="339.0" prefHeight="38.0" prefWidth="252.0" promptText="Науковий ступінь">
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="profilesecName_field" layoutX="60.0" layoutY="274.0" prefHeight="38.0" prefWidth="252.0" promptText="По-батькові">
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="profilesurName_field" layoutX="60.0" layoutY="209.0" prefHeight="38.0" prefWidth="252.0" promptText="Прізвище">
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="edit_final_btn" layoutX="60.0" layoutY="517.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="252.0" style="-fx-background-color: green;" text="Зберегти зміни" textAlignment="CENTER" textFill="#e8e8e8" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backBtn_profile" layoutX="525.0" layoutY="517.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="90.0" text="Назад" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="imageditProfile" fitHeight="270.0" fitWidth="299.0" layoutX="350.0" layoutY="61.0"
+                 pickOnBounds="true" preserveRatio="true">
+         <Image url="@../media/teacher.png"/>
+      </ImageView>
+      <Button fx:id="uploadImageProfile_btn" layoutX="362.0" layoutY="352.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="287.0" style="-fx-background-color: #f30956;" text="Завантажити інше фото" textAlignment="CENTER" textFill="#ebebeb" wrapText="true">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="profileTelephone_field" layoutX="60.0" layoutY="470.0" prefHeight="38.0" prefWidth="252.0" promptText="Номер телефону">
+         <font>
+            <Font name="Monospaced Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="63.0" layoutY="118.0" text="Ім'я">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="184.0" text="Прізвище">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="250.0" text="По-батькові">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="316.0" text="Науковий ступінь">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="379.0" text="Посада">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="445.0" text="Телефон">
+         <font>
+            <Font name="Monospaced Bold" size="20.0" />
+         </font>
+      </Label>
+   </Pane>
+</AnchorPane>

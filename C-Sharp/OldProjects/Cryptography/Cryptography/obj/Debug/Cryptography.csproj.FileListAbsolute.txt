@@ -1,0 +1,10 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\bin\Debug\Cryptography.exe.config
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\bin\Debug\Cryptography.exe
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\bin\Debug\Cryptography.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.Properties.Resources.resources
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.csproj.GenerateResource.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.exe
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Cryptography\Cryptography\obj\Debug\Cryptography.CryptographyForm.resources

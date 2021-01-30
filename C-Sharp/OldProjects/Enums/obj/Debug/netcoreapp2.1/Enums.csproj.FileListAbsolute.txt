@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\bin\Debug\netcoreapp2.1\Enums.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\bin\Debug\netcoreapp2.1\Enums.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\bin\Debug\netcoreapp2.1\Enums.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\bin\Debug\netcoreapp2.1\Enums.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\bin\Debug\netcoreapp2.1\Enums.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\obj\Debug\netcoreapp2.1\Enums.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\obj\Debug\netcoreapp2.1\Enums.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\obj\Debug\netcoreapp2.1\Enums.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\obj\Debug\netcoreapp2.1\Enums.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\obj\Debug\netcoreapp2.1\Enums.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Enums\obj\Debug\netcoreapp2.1\Enums.pdb

@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\bin\Debug\netcoreapp2.1\Reference variables and getting references.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\bin\Debug\netcoreapp2.1\Reference variables and getting references.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\bin\Debug\netcoreapp2.1\Reference variables and getting references.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\bin\Debug\netcoreapp2.1\Reference variables and getting references.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\bin\Debug\netcoreapp2.1\Reference variables and getting references.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\obj\Debug\netcoreapp2.1\Reference variables and getting references.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\obj\Debug\netcoreapp2.1\Reference variables and getting references.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\obj\Debug\netcoreapp2.1\Reference variables and getting references.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\obj\Debug\netcoreapp2.1\Reference variables and getting references.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\obj\Debug\netcoreapp2.1\Reference variables and getting references.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Reference variables and getting references\obj\Debug\netcoreapp2.1\Reference variables and getting references.pdb

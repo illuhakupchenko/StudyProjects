@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\bin\Debug\netcoreapp2.1\Conditional_Constructions.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\bin\Debug\netcoreapp2.1\Conditional_Constructions.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\bin\Debug\netcoreapp2.1\Conditional_Constructions.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\bin\Debug\netcoreapp2.1\Conditional_Constructions.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\bin\Debug\netcoreapp2.1\Conditional_Constructions.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\obj\Debug\netcoreapp2.1\Conditional_Constructions.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\obj\Debug\netcoreapp2.1\Conditional_Constructions.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\obj\Debug\netcoreapp2.1\Conditional_Constructions.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\obj\Debug\netcoreapp2.1\Conditional_Constructions.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\obj\Debug\netcoreapp2.1\Conditional_Constructions.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\CSharp_full_Tutorial_Metanit\Conditional_Constructions\obj\Debug\netcoreapp2.1\Conditional_Constructions.pdb

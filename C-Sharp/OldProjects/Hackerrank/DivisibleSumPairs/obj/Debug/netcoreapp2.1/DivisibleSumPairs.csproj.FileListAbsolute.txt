@@ -1,0 +1,11 @@
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\bin\Debug\netcoreapp2.1\DivisibleSumPairs.deps.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\bin\Debug\netcoreapp2.1\DivisibleSumPairs.runtimeconfig.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\bin\Debug\netcoreapp2.1\DivisibleSumPairs.runtimeconfig.dev.json
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\bin\Debug\netcoreapp2.1\DivisibleSumPairs.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\bin\Debug\netcoreapp2.1\DivisibleSumPairs.pdb
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\obj\Debug\netcoreapp2.1\DivisibleSumPairs.csprojAssemblyReference.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\obj\Debug\netcoreapp2.1\DivisibleSumPairs.csproj.CoreCompileInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\obj\Debug\netcoreapp2.1\DivisibleSumPairs.AssemblyInfoInputs.cache
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\obj\Debug\netcoreapp2.1\DivisibleSumPairs.AssemblyInfo.cs
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\obj\Debug\netcoreapp2.1\DivisibleSumPairs.dll
+C:\Users\illuh\Desktop\Proga\C# Projects\Hackerrank\DivisibleSumPairs\obj\Debug\netcoreapp2.1\DivisibleSumPairs.pdb
